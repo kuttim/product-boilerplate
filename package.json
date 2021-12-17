@@ -1,0 +1,19 @@
+{
+  "name": "product-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kuttim/product-boilerplate",
+  "author": "Mikk Küttim <kuttim.mikk@gmail.com>",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \" [Husky] pre-applypatch\"",
+      "post-applypatch": "echo \" [Husky] post-applypatch\"",
+      "pre-coomit": "echo \" [Husky] pre-commit\""
+    }
+  },
+  "dependencies": {
+    "husky": "^7.0.4"
+  }
+}
